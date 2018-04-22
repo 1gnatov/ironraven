@@ -1,0 +1,11 @@
+GET http://localhost:8080/credit?name=Stark&amount=300
+
+Accept: */*
+Cache-Control: no-cache
+###
+
+GET http://localhost:8080/credit?name=Laninster&amount=4000
+
+Accept: */*
+Cache-Control: no-cache
+###
